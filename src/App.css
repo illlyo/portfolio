@@ -22,11 +22,12 @@ body{
   color: white;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .project-one{
   height: 200px;
-  width: 200px;
+  width: 300px;
   background-image: url('./public/refugee-data.png');
   background-size: contain;
   background-size: cover;
@@ -34,7 +35,7 @@ body{
 
 .project-two{
   height: 200px;
-  width: 200px;
+  width: 300px;
   background-image: url('./public/lance-app-3.png');
   background-size: contain;
   background-size: cover;
@@ -42,7 +43,7 @@ body{
 
 .project-three{
   height: 200px;
-  width: 200px;
+  width: 300px;
   background-image: url('./public/DWMP.png');
   background-size: contain;
   background-size: cover;
@@ -50,7 +51,7 @@ body{
 
 .project-four{
   height: 200px;
-  width: 200px;
+  width: 300px;
   background-image: url('./public/refugee-data.png');
   background-size: contain;
   background-size: cover;
