@@ -9,13 +9,49 @@ body{
 }
 
 #me{
-  position: absolute;
-  top: 30%;
-  left: 40%;
   height: 200px;
   width: 200px;
   text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, .7);
   border-radius: 2%;
+}
+
+.projectDivs{
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-one{
+  height: 200px;
+  width: 200px;
+  background-image: url('./public/refugee-data.png');
+  background-size: contain;
+  background-size: cover;
+}
+
+.project-two{
+  height: 200px;
+  width: 200px;
+  background-image: url('./public/lance-app-3.png');
+  background-size: contain;
+  background-size: cover;
+}
+
+.project-three{
+  height: 200px;
+  width: 200px;
+  background-image: url('./public/DWMP.png');
+  background-size: contain;
+  background-size: cover;
+}
+
+.project-four{
+  height: 200px;
+  width: 200px;
+  background-image: url('./public/refugee-data.png');
+  background-size: contain;
+  background-size: cover;
 }
