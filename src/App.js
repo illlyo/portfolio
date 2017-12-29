@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-
 import Nav from './components/Nav.jsx';
-import Projects from './components/Projects.jsx';
+import Particles from 'react-particles-js';
 
 import './App.css';
 
@@ -10,7 +9,22 @@ class App extends Component {
     return (
       <div>
           <Nav />
-          <Projects />
+            <Particles
+                    params={{
+                      particles: {
+                        line_linked: {
+                          shadow: {
+                            enable: true,
+                            color: "salmon",
+                            blur: 1
+                          }
+                        }
+                      },
+                    interactivity: {
+                      onhover: "repulse"
+                    }
+                  }}
+            />
         </div>
     )
   }

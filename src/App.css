@@ -3,18 +3,49 @@
 }
 
 body{
-  background-color: black;
+  background-color: rgb(33, 33, 33);
   width: 100%;
   height: 100%;
 }
 
-#me{
-  height: 200px;
-  width: 200px;
-  text-align: center;
+#nav-container{
+  display: flex;
+  width: 100%;
   color: white;
-  background-color: rgba(0, 0, 0, .7);
-  border-radius: 2%;
+  background-color: rgb(33, 33, 33);
+  top: 0;
+}
+
+#logo-name{
+justify-content: flex-start;
+}
+
+.initial{
+  color: tomato;
+}
+
+.about-me{
+  color: white;
+}
+
+.hamburger{
+  justify-content: flex-end;
+  list-style-type: none;
+  right: 0;
+}
+
+nav{
+  justify-content: flex-end;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+a:hover{
+  color: tomato;
 }
 
 .projectDivs{
@@ -23,6 +54,7 @@ body{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 10px;
 }
 
 .project-one{
@@ -31,6 +63,13 @@ body{
   background-image: url('./public/refugee-data.png');
   background-size: contain;
   background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+}
+
+.project-one:hover{
+  filter: none;
+  cursor: pointer;
 }
 
 .project-two{
@@ -39,6 +78,14 @@ body{
   background-image: url('./public/lance-app-3.png');
   background-size: contain;
   background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  padding-bottom: 10px;
+}
+
+.project-two:hover{
+  filter: none;
+  cursor: pointer;
 }
 
 .project-three{
@@ -47,6 +94,14 @@ body{
   background-image: url('./public/DWMP.png');
   background-size: contain;
   background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  padding-bottom: 10px;
+}
+
+.project-three:hover{
+  filter: none;
+  cursor: pointer;
 }
 
 .project-four{
