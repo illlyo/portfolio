@@ -19,6 +19,23 @@ body{
 #logo-name{
 justify-content: flex-start;
 font-size: 5vw;
+padding-left: 5px;
+}
+
+h1#logo-name{
+  margin-bottom: 0;
+}
+
+#descript{
+  margin-top: 0;
+  padding-left: 12%;
+  font-size: 2vw;
+}
+
+.log{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .initial{
@@ -45,15 +62,12 @@ ul.hamburger{
 li{
   float:left;
   padding-right: 8px;
-}
-
-a{
   color: white;
   text-decoration: none;
   transition-duration: 0.3s;
 }
 
-a:hover{
+li:hover{
   color: tomato;
 }
 
@@ -125,16 +139,18 @@ a:hover{
 }
 
 .footer{
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  bottom: 0;
 }
+
 
 .sm-logo{
   opacity: 0.7;
   width: 3%;
   height: 3%;
-  padding-right: 3px;
   cursor: pointer;
+  transition-duration: 1s;
+  padding-right: 5px;
   transition-duration: 1s;
 }
 
@@ -142,5 +158,5 @@ a:hover{
   opacity: 1;
   width: 3%;
   height: 3%;
-  padding-right: 3px;
+  filter:drop-shadow( 4px 5px 4px tomato);
 }

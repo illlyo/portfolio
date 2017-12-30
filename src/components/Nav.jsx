@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
-
 import Projects from './Projects.jsx';
 
 function Navcon(){
@@ -26,8 +25,6 @@ function About(){
     <div className='about-me'>
 
 <p>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drink unlimited amounts of yerba mate<span className='illy'>.</span> </p>
-
-
       <p>Hi! stuff about me, list technologies</p>
       <h1>this is highlighted</h1>
     </div>
@@ -39,7 +36,10 @@ const Nav = () => {
     <Router>
       <div>
       <div id="nav-container">
-        <h1 id="logo-name"><span className='initial'>ileana</span>ordonez<span className='initial'>.</span></h1>
+        <div className='log'>
+        <h1 id="logo-name" ><span className='initial'>ileana</span>ordonez<span className='initial'>.</span></h1>
+        <p id="descript">Designer, <span className='illy'>Developer</span> & Data Viz<span className='illy'>.</span></p>
+        </div>
         <Navcon />
       </div>
         <Route exact path='/' />
