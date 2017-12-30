@@ -25,7 +25,7 @@ function About(){
   return(
     <div className='about-me'>
 
-Hey, my name is Ileana and I'm a Linguist turned Web-Developer.
+<p>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drink unlimited amounts of yerba mate<span className='illy'>.</span> </p>
 
 
       <p>Hi! stuff about me, list technologies</p>
@@ -39,7 +39,7 @@ const Nav = () => {
     <Router>
       <div>
       <div id="nav-container">
-        <h1 id="logo-name"><span className='initial'>ileana</span>ordonez</h1>
+        <h1 id="logo-name"><span className='initial'>ileana</span>ordonez<span className='initial'>.</span></h1>
         <Navcon />
       </div>
         <Route exact path='/' />

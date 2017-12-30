@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav.jsx';
 import Particles from 'react-particles-js';
-
+import Footer from './components/Footer.jsx';
 import './App.css';
 
 class App extends Component {
@@ -25,6 +25,7 @@ class App extends Component {
                     }
                   }}
             />
+          <Footer />
         </div>
     )
   }

@@ -18,6 +18,7 @@ body{
 
 #logo-name{
 justify-content: flex-start;
+font-size: 5vw;
 }
 
 .initial{
@@ -26,16 +27,24 @@ justify-content: flex-start;
 
 .about-me{
   color: white;
+  height: 30%;
+  width: 30%;
 }
 
-.hamburger{
+.illy{
+  color: salmon;
+}
+
+ul.hamburger{
   justify-content: flex-end;
   list-style-type: none;
-  right: 0;
+  overflow: hidden;
+  margin-left: 30vw;
 }
 
-nav{
-  justify-content: flex-end;
+li{
+  float:left;
+  padding-right: 8px;
 }
 
 a{
@@ -65,11 +74,14 @@ a:hover{
   background-size: cover;
   -webkit-filter: grayscale(100%);
   filter: gray;
+  color: transparent;
 }
 
 .project-one:hover{
   filter: none;
   cursor: pointer;
+  background-image: blur(5px);
+  color: white;
 }
 
 .project-two{
@@ -110,4 +122,25 @@ a:hover{
   background-image: url('./public/refugee-data.png');
   background-size: contain;
   background-size: cover;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+.sm-logo{
+  opacity: 0.7;
+  width: 3%;
+  height: 3%;
+  padding-right: 3px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.sm-logo:hover{
+  opacity: 1;
+  width: 3%;
+  height: 3%;
+  padding-right: 3px;
 }
