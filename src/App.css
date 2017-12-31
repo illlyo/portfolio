@@ -1,3 +1,7 @@
+#root{
+  width: 100%;
+  height: 100%;
+}
 .App {
   text-align: center;
 }
@@ -6,6 +10,10 @@ body{
   background-color: rgb(33, 33, 33);
   width: 100%;
   height: 100%;
+}
+
+canvas{
+  position: fixed;
 }
 
 #nav-container{
@@ -20,6 +28,7 @@ body{
 justify-content: flex-start;
 font-size: 5vw;
 padding-left: 5px;
+margin-top: -3px;
 }
 
 h1#logo-name{
@@ -43,9 +52,14 @@ h1#logo-name{
 }
 
 .about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 110px;
   color: white;
-  height: 30%;
-  width: 30%;
+  height: 40%;
+  width: 60%;
+  background-color: rgba(40, 40, 40, 0.9);
 }
 
 .illy{
@@ -75,33 +89,36 @@ li:hover{
   display: flex;
   color: white;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
   padding-bottom: 10px;
 }
 
+.project-info{
+  height: 40%;
+  width: 40%;
+}
 .project-one{
-  height: 200px;
-  width: 300px;
+  height: 100px;
+  width: 200px;
   background-image: url('./public/refugee-data.png');
   background-size: contain;
   background-size: cover;
   -webkit-filter: grayscale(100%);
-  filter: gray;
   color: transparent;
+  -webkit-filter: blur(0px);
 }
 
 .project-one:hover{
   filter: none;
   cursor: pointer;
-  background-image: blur(5px);
+  -webkit-filter: blur(5px);
   color: white;
 }
 
 .project-two{
-  height: 200px;
-  width: 300px;
-  background-image: url('./public/lance-app-3.png');
+  height: 100px;
+  width: 200px;  background-image: url('./public/lance-app-3.png');
   background-size: contain;
   background-size: cover;
   -webkit-filter: grayscale(100%);
@@ -115,9 +132,8 @@ li:hover{
 }
 
 .project-three{
-  height: 200px;
-  width: 300px;
-  background-image: url('./public/DWMP.png');
+  height: 100px;
+  width: 200px;  background-image: url('./public/DWMP.png');
   background-size: contain;
   background-size: cover;
   -webkit-filter: grayscale(100%);
@@ -131,16 +147,15 @@ li:hover{
 }
 
 .project-four{
-  height: 200px;
-  width: 300px;
-  background-image: url('./public/refugee-data.png');
+  height: 100px;
+  width: 200px;  background-image: url('./public/refugee-data.png');
   background-size: contain;
   background-size: cover;
 }
 
 .footer{
-  text-align: center;
   bottom: 0;
+  text-align: center;
 }
 
 
@@ -159,4 +174,16 @@ li:hover{
   width: 3%;
   height: 3%;
   filter:drop-shadow( 4px 5px 4px tomato);
+}
+
+li{
+  list-style-type: none;
+}
+
+h3{
+  margin-bottom: -15px;
+}
+
+p{
+  text-indent: 30px;
 }

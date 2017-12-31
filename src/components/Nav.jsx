@@ -1,4 +1,5 @@
 import React from 'react';
+import Particles from 'react-particles-js';
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import Projects from './Projects.jsx';
 
@@ -25,8 +26,26 @@ function About(){
     <div className='about-me'>
 
 <p>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drink unlimited amounts of yerba mate<span className='illy'>.</span> </p>
-      <p>Hi! stuff about me, list technologies</p>
-      <h1>this is highlighted</h1>
+
+      <h3>Programming Languages:</h3>
+      <ul>
+        <li>HTML5/CSS3</li>
+        <li>Javascript</li>
+        <li>Ruby on Rails</li>
+        <li>Git</li>
+        <li>SQL</li>
+        <li>jQuery</li>
+        <li>React.js</li>
+        <li>D3.js</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Particle.js</li>
+      </ul>
+
+      <h3>Favorite Text Editor:</h3>
+      <p>Atom</p>
+      <h3>Setup:</h3>
+      <p>MacBook Pro (Retina, 15inch) with a 2.2GHz Core i7 Processor & 16GB of RAM.</p>
     </div>
   )
 }
@@ -42,6 +61,31 @@ const Nav = () => {
         </div>
         <Navcon />
       </div>
+        <Particles
+                params={{
+                  particles: {
+                    line_linked: {
+                      shadow: {
+                        enable: true,
+                        color: "salmon",
+                        blur: 5
+                      }
+                    }
+                  },
+                  "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                      "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                      },
+                    "repulse": {
+                      "distance": 100,
+                      "duration": 0.4
+                    }
+              }},
+              "retina_detect": true}}
+        />
         <Route exact path='/' />
         <Route path='/portfolio' component={Projects} />
         <Route path='/about' component={About} />
