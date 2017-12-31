@@ -50,6 +50,9 @@ function About(){
       <p>Atom <span className='illy'>.</span></p>
       <h3>Setup <span className='illy'>:</span></h3>
       <p>MacBook Pro (Retina, 15inch) with a 2.2GHz Core i7 Processor & 16GB of RAM.</p>
+
+    <h3>Contact<span className='illy'>:</span></h3>
+    <p><a href="mailto:ileana.s.ordonez@gmail.com">ileana.s.ordonez@gmail.com</a></p>
     </div>
   )
 }

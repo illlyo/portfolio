@@ -198,3 +198,8 @@ p{
 .resume{
 margin-left: 20px;
 }
+
+a{
+  text-decoration: none;
+  color: tomato;
+}
