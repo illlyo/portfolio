@@ -108,10 +108,12 @@ li:hover{
   -webkit-filter: blur(0px);
 }
 
+iframe{
+    -webkit-filter: blur(0px);
+}
+
 .project-one:hover{
-  filter: none;
   cursor: pointer;
-  -webkit-filter: blur(5px);
   color: white;
 }
 
@@ -126,7 +128,6 @@ li:hover{
 }
 
 .project-two:hover{
-  filter: none;
   cursor: pointer;
 }
 
@@ -140,7 +141,6 @@ li:hover{
 }
 
 .project-three:hover{
-  filter: none;
   cursor: pointer;
 }
 
@@ -150,6 +150,10 @@ li:hover{
   background-size: contain;
   background-size: cover;
   -webkit-filter: blur(0px);
+}
+
+.project-four:hover{
+  cursor: pointer;
 }
 
 .footer{
@@ -188,4 +192,8 @@ h3{
 
 p{
   text-indent: 30px;
+}
+
+.resume{
+margin-left: 20px;
 }

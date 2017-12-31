@@ -2,6 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import Projects from './Projects.jsx';
+import Resume from './Resume.jsx';
 
 function Navcon(){
   return(
@@ -16,6 +17,9 @@ function Navcon(){
         <Link to ='/about'>
           <li>About</li>
         </Link>
+        <Link to ='/resume'>
+          <li>Resume</li>
+        </Link>
       </ul>
     </nav>
   )
@@ -25,7 +29,7 @@ function About(){
   return(
     <div className='about-me'>
 
-<p>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drinks unlimited amounts of yerba mate<span className='illy'>.</span> </p>
+<p>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drink unlimited amounts of yerba mate<span className='illy'>.</span> </p>
 
       <h3>Programming Languages<span className='illy'>:</span></h3>
       <ul>
@@ -89,6 +93,7 @@ const Nav = () => {
         <Route exact path='/' />
         <Route path='/portfolio' component={Projects} />
         <Route path='/about' component={About} />
+        <Route path='/resume' component={Resume} />
       </div>
     </Router>
   )
