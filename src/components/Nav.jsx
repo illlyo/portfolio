@@ -25,9 +25,9 @@ function About(){
   return(
     <div className='about-me'>
 
-<p>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drink unlimited amounts of yerba mate<span className='illy'>.</span> </p>
+<p>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drinks unlimited amounts of yerba mate<span className='illy'>.</span> </p>
 
-      <h3>Programming Languages:</h3>
+      <h3>Programming Languages<span className='illy'>:</span></h3>
       <ul>
         <li>HTML5/CSS3</li>
         <li>Javascript</li>
@@ -42,9 +42,9 @@ function About(){
         <li>Particle.js</li>
       </ul>
 
-      <h3>Favorite Text Editor:</h3>
+      <h3>Favorite Text Editor<span className='illy'>:</span></h3>
       <p>Atom</p>
-      <h3>Setup:</h3>
+      <h3>Setup <span className='illy'>:</span></h3>
       <p>MacBook Pro (Retina, 15inch) with a 2.2GHz Core i7 Processor & 16GB of RAM.</p>
     </div>
   )
