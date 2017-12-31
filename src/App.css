@@ -154,8 +154,11 @@ li:hover{
 }
 
 .footer{
+  left: 15%;
   bottom: 0;
   text-align: center;
+  position: fixed;
+  background-color: rgb(33, 33, 33);
 }
 
 
