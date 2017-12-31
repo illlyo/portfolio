@@ -33,21 +33,21 @@ function About(){
 
       <h3>Programming Languages<span className='illy'>:</span></h3>
       <ul>
-        <li>HTML5/CSS3</li>
-        <li>Javascript</li>
-        <li>Ruby on Rails</li>
-        <li>Git</li>
-        <li>SQL</li>
-        <li>jQuery</li>
-        <li>React.js</li>
-        <li>D3.js</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Particle.js</li>
+        <li>HTML5/CSS3<span className='illy'>.</span></li>
+        <li>Javascript<span className='illy'>.</span></li>
+        <li>Ruby on Rails<span className='illy'>.</span></li>
+        <li>Git<span className='illy'>.</span></li>
+        <li>SQL<span className='illy'>.</span></li>
+        <li>jQuery<span className='illy'>.</span></li>
+        <li>React.js<span className='illy'>.</span></li>
+        <li>D3.js<span className='illy'>.</span></li>
+        <li>Node.js<span className='illy'>.</span></li>
+        <li>Express.js<span className='illy'>.</span></li>
+        <li>Particle.js<span className='illy'>.</span></li>
       </ul>
 
       <h3>Favorite Text Editor<span className='illy'>:</span></h3>
-      <p>Atom</p>
+      <p>Atom <span className='illy'>.</span></p>
       <h3>Setup <span className='illy'>:</span></h3>
       <p>MacBook Pro (Retina, 15inch) with a 2.2GHz Core i7 Processor & 16GB of RAM.</p>
     </div>

@@ -37,7 +37,7 @@ h1#logo-name{
 
 #descript{
   margin-top: 0;
-  padding-left: 12%;
+  padding-left: 5%;
   font-size: 2vw;
 }
 
@@ -60,6 +60,7 @@ h1#logo-name{
   height: 40%;
   width: 60%;
   background-color: rgba(40, 40, 40, 0.9);
+    -webkit-filter: blur(0px);
 }
 
 .illy{
