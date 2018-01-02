@@ -29,7 +29,7 @@ function About(){
   return(
     <div className='about-me'>
 
-<p>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drink unlimited amounts of yerba mate<span className='illy'>.</span> </p>
+<h3>Hey! my name is <span className='illy'>ileana</span> and I'm a Linguist turned Web-Developer<span className='illy'>.</span> I am a creative problem solver who loves to code, develop seamless UX, and drink unlimited amounts of yerba mate<span className='illy'>.</span> </h3>
 
       <h3>Programming Languages<span className='illy'>:</span></h3>
       <ul>
